@@ -1,0 +1,651 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6E0F6F7D2C665B4F00C5B7AB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0F6F7C2C665B4F00C5B7AB /* ContentView.swift */; };
+		6E1A9C942C665C3B00E8AEAC /* ListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E1A9C932C665C3B00E8AEAC /* ListItem.swift */; };
+		6E5386772C6697A600F87DA8 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5386762C6697A600F87DA8 /* Event.swift */; };
+		6E53867B2C66A19A00F87DA8 /* Date+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E53867A2C66A19A00F87DA8 /* Date+Ext.swift */; };
+		6E53867D2C66A24700F87DA8 /* EditEventScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E53867C2C66A24700F87DA8 /* EditEventScreen.swift */; };
+		6E57D0902C6658CA00C16E12 /* Calendly_iosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E57D08F2C6658CA00C16E12 /* Calendly_iosApp.swift */; };
+		6E57D0922C6658CA00C16E12 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E57D0912C6658CA00C16E12 /* HomeScreen.swift */; };
+		6E57D0942C6658CB00C16E12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E57D0932C6658CB00C16E12 /* Assets.xcassets */; };
+		6E57D0972C6658CB00C16E12 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E57D0962C6658CB00C16E12 /* Preview Assets.xcassets */; };
+		6E57D0A12C6658CB00C16E12 /* Calendly_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E57D0A02C6658CB00C16E12 /* Calendly_iosTests.swift */; };
+		6E57D0AB2C6658CB00C16E12 /* Calendly_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E57D0AA2C6658CB00C16E12 /* Calendly_iosUITests.swift */; };
+		6E57D0AD2C6658CB00C16E12 /* Calendly_iosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E57D0AC2C6658CB00C16E12 /* Calendly_iosUITestsLaunchTests.swift */; };
+		6EA709392C666682009F8ADC /* AddEventScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA709382C666682009F8ADC /* AddEventScreen.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6E57D09D2C6658CB00C16E12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E57D0842C6658CA00C16E12 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E57D08B2C6658CA00C16E12;
+			remoteInfo = "Calendly-ios";
+		};
+		6E57D0A72C6658CB00C16E12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E57D0842C6658CA00C16E12 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E57D08B2C6658CA00C16E12;
+			remoteInfo = "Calendly-ios";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6E0F6F7C2C665B4F00C5B7AB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6E1A9C932C665C3B00E8AEAC /* ListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItem.swift; sourceTree = "<group>"; };
+		6E5386762C6697A600F87DA8 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		6E53867A2C66A19A00F87DA8 /* Date+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Ext.swift"; sourceTree = "<group>"; };
+		6E53867C2C66A24700F87DA8 /* EditEventScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditEventScreen.swift; sourceTree = "<group>"; };
+		6E57D08C2C6658CA00C16E12 /* Calendly-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Calendly-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E57D08F2C6658CA00C16E12 /* Calendly_iosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calendly_iosApp.swift; sourceTree = "<group>"; };
+		6E57D0912C6658CA00C16E12 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		6E57D0932C6658CB00C16E12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6E57D0962C6658CB00C16E12 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6E57D09C2C6658CB00C16E12 /* Calendly-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Calendly-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E57D0A02C6658CB00C16E12 /* Calendly_iosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calendly_iosTests.swift; sourceTree = "<group>"; };
+		6E57D0A62C6658CB00C16E12 /* Calendly-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Calendly-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E57D0AA2C6658CB00C16E12 /* Calendly_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calendly_iosUITests.swift; sourceTree = "<group>"; };
+		6E57D0AC2C6658CB00C16E12 /* Calendly_iosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calendly_iosUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6EA709382C666682009F8ADC /* AddEventScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEventScreen.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6E57D0892C6658CA00C16E12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E57D0992C6658CB00C16E12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E57D0A32C6658CB00C16E12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6E0F6F7B2C665B1F00C5B7AB /* ui */ = {
+			isa = PBXGroup;
+			children = (
+				6E1A9C922C665C2C00E8AEAC /* Common Components */,
+				6E57D0912C6658CA00C16E12 /* HomeScreen.swift */,
+				6EA709382C666682009F8ADC /* AddEventScreen.swift */,
+				6E53867C2C66A24700F87DA8 /* EditEventScreen.swift */,
+			);
+			path = ui;
+			sourceTree = "<group>";
+		};
+		6E1A9C922C665C2C00E8AEAC /* Common Components */ = {
+			isa = PBXGroup;
+			children = (
+				6E1A9C932C665C3B00E8AEAC /* ListItem.swift */,
+			);
+			path = "Common Components";
+			sourceTree = "<group>";
+		};
+		6E5386752C66978B00F87DA8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6E5386762C6697A600F87DA8 /* Event.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6E5386782C66A17C00F87DA8 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				6E5386792C66A18500F87DA8 /* Extensions */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		6E5386792C66A18500F87DA8 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				6E53867A2C66A19A00F87DA8 /* Date+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		6E57D0832C6658CA00C16E12 = {
+			isa = PBXGroup;
+			children = (
+				6E57D08E2C6658CA00C16E12 /* Calendly-ios */,
+				6E57D09F2C6658CB00C16E12 /* Calendly-iosTests */,
+				6E57D0A92C6658CB00C16E12 /* Calendly-iosUITests */,
+				6E57D08D2C6658CA00C16E12 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6E57D08D2C6658CA00C16E12 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E57D08C2C6658CA00C16E12 /* Calendly-ios.app */,
+				6E57D09C2C6658CB00C16E12 /* Calendly-iosTests.xctest */,
+				6E57D0A62C6658CB00C16E12 /* Calendly-iosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E57D08E2C6658CA00C16E12 /* Calendly-ios */ = {
+			isa = PBXGroup;
+			children = (
+				6E5386782C66A17C00F87DA8 /* Utilities */,
+				6E5386752C66978B00F87DA8 /* Model */,
+				6E57D08F2C6658CA00C16E12 /* Calendly_iosApp.swift */,
+				6E0F6F7B2C665B1F00C5B7AB /* ui */,
+				6E57D0932C6658CB00C16E12 /* Assets.xcassets */,
+				6E57D0952C6658CB00C16E12 /* Preview Content */,
+				6E0F6F7C2C665B4F00C5B7AB /* ContentView.swift */,
+			);
+			path = "Calendly-ios";
+			sourceTree = "<group>";
+		};
+		6E57D0952C6658CB00C16E12 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6E57D0962C6658CB00C16E12 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6E57D09F2C6658CB00C16E12 /* Calendly-iosTests */ = {
+			isa = PBXGroup;
+			children = (
+				6E57D0A02C6658CB00C16E12 /* Calendly_iosTests.swift */,
+			);
+			path = "Calendly-iosTests";
+			sourceTree = "<group>";
+		};
+		6E57D0A92C6658CB00C16E12 /* Calendly-iosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6E57D0AA2C6658CB00C16E12 /* Calendly_iosUITests.swift */,
+				6E57D0AC2C6658CB00C16E12 /* Calendly_iosUITestsLaunchTests.swift */,
+			);
+			path = "Calendly-iosUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6E57D08B2C6658CA00C16E12 /* Calendly-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E57D0B02C6658CB00C16E12 /* Build configuration list for PBXNativeTarget "Calendly-ios" */;
+			buildPhases = (
+				6E57D0882C6658CA00C16E12 /* Sources */,
+				6E57D0892C6658CA00C16E12 /* Frameworks */,
+				6E57D08A2C6658CA00C16E12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Calendly-ios";
+			productName = "Calendly-ios";
+			productReference = 6E57D08C2C6658CA00C16E12 /* Calendly-ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6E57D09B2C6658CB00C16E12 /* Calendly-iosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E57D0B32C6658CB00C16E12 /* Build configuration list for PBXNativeTarget "Calendly-iosTests" */;
+			buildPhases = (
+				6E57D0982C6658CB00C16E12 /* Sources */,
+				6E57D0992C6658CB00C16E12 /* Frameworks */,
+				6E57D09A2C6658CB00C16E12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E57D09E2C6658CB00C16E12 /* PBXTargetDependency */,
+			);
+			name = "Calendly-iosTests";
+			productName = "Calendly-iosTests";
+			productReference = 6E57D09C2C6658CB00C16E12 /* Calendly-iosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6E57D0A52C6658CB00C16E12 /* Calendly-iosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E57D0B62C6658CB00C16E12 /* Build configuration list for PBXNativeTarget "Calendly-iosUITests" */;
+			buildPhases = (
+				6E57D0A22C6658CB00C16E12 /* Sources */,
+				6E57D0A32C6658CB00C16E12 /* Frameworks */,
+				6E57D0A42C6658CB00C16E12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E57D0A82C6658CB00C16E12 /* PBXTargetDependency */,
+			);
+			name = "Calendly-iosUITests";
+			productName = "Calendly-iosUITests";
+			productReference = 6E57D0A62C6658CB00C16E12 /* Calendly-iosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6E57D0842C6658CA00C16E12 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					6E57D08B2C6658CA00C16E12 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					6E57D09B2C6658CB00C16E12 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 6E57D08B2C6658CA00C16E12;
+					};
+					6E57D0A52C6658CB00C16E12 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 6E57D08B2C6658CA00C16E12;
+					};
+				};
+			};
+			buildConfigurationList = 6E57D0872C6658CA00C16E12 /* Build configuration list for PBXProject "Calendly-ios" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6E57D0832C6658CA00C16E12;
+			productRefGroup = 6E57D08D2C6658CA00C16E12 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6E57D08B2C6658CA00C16E12 /* Calendly-ios */,
+				6E57D09B2C6658CB00C16E12 /* Calendly-iosTests */,
+				6E57D0A52C6658CB00C16E12 /* Calendly-iosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6E57D08A2C6658CA00C16E12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E57D0972C6658CB00C16E12 /* Preview Assets.xcassets in Resources */,
+				6E57D0942C6658CB00C16E12 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E57D09A2C6658CB00C16E12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E57D0A42C6658CB00C16E12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6E57D0882C6658CA00C16E12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E53867D2C66A24700F87DA8 /* EditEventScreen.swift in Sources */,
+				6E1A9C942C665C3B00E8AEAC /* ListItem.swift in Sources */,
+				6EA709392C666682009F8ADC /* AddEventScreen.swift in Sources */,
+				6E57D0922C6658CA00C16E12 /* HomeScreen.swift in Sources */,
+				6E57D0902C6658CA00C16E12 /* Calendly_iosApp.swift in Sources */,
+				6E5386772C6697A600F87DA8 /* Event.swift in Sources */,
+				6E53867B2C66A19A00F87DA8 /* Date+Ext.swift in Sources */,
+				6E0F6F7D2C665B4F00C5B7AB /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E57D0982C6658CB00C16E12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E57D0A12C6658CB00C16E12 /* Calendly_iosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E57D0A22C6658CB00C16E12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E57D0AD2C6658CB00C16E12 /* Calendly_iosUITestsLaunchTests.swift in Sources */,
+				6E57D0AB2C6658CB00C16E12 /* Calendly_iosUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6E57D09E2C6658CB00C16E12 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E57D08B2C6658CA00C16E12 /* Calendly-ios */;
+			targetProxy = 6E57D09D2C6658CB00C16E12 /* PBXContainerItemProxy */;
+		};
+		6E57D0A82C6658CB00C16E12 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E57D08B2C6658CA00C16E12 /* Calendly-ios */;
+			targetProxy = 6E57D0A72C6658CB00C16E12 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6E57D0AE2C6658CB00C16E12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6E57D0AF2C6658CB00C16E12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6E57D0B12C6658CB00C16E12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Calendly-ios/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Calendly-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6E57D0B22C6658CB00C16E12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Calendly-ios/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Calendly-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6E57D0B42C6658CB00C16E12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Calendly-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Calendly-ios.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Calendly-ios";
+			};
+			name = Debug;
+		};
+		6E57D0B52C6658CB00C16E12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Calendly-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Calendly-ios.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Calendly-ios";
+			};
+			name = Release;
+		};
+		6E57D0B72C6658CB00C16E12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Calendly-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Calendly-ios";
+			};
+			name = Debug;
+		};
+		6E57D0B82C6658CB00C16E12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Calendly-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Calendly-ios";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6E57D0872C6658CA00C16E12 /* Build configuration list for PBXProject "Calendly-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E57D0AE2C6658CB00C16E12 /* Debug */,
+				6E57D0AF2C6658CB00C16E12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E57D0B02C6658CB00C16E12 /* Build configuration list for PBXNativeTarget "Calendly-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E57D0B12C6658CB00C16E12 /* Debug */,
+				6E57D0B22C6658CB00C16E12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E57D0B32C6658CB00C16E12 /* Build configuration list for PBXNativeTarget "Calendly-iosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E57D0B42C6658CB00C16E12 /* Debug */,
+				6E57D0B52C6658CB00C16E12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E57D0B62C6658CB00C16E12 /* Build configuration list for PBXNativeTarget "Calendly-iosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E57D0B72C6658CB00C16E12 /* Debug */,
+				6E57D0B82C6658CB00C16E12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6E57D0842C6658CA00C16E12 /* Project object */;
+}
